@@ -298,8 +298,8 @@ function AboutSection() {
 
               <div className="mt-8 grid grid-cols-2 md:grid-cols-4 gap-4">
                 <StatCard value={2} label="Years Experience" />
-                <StatCard value={15} label="Projects" />
-                <StatCard value={516} label="Problems Solved" />
+                <StatCard value={22} label="Projects" />
+                <StatCard value={1100} label="Problems Solved" />
                 <StatCard value={5} label="Certifications" />
               </div>
             </div>
@@ -500,9 +500,13 @@ function EducationSection() {
           className="max-w-3xl mx-auto bg-white dark:bg-gray-800 p-8 rounded-xl shadow-lg border border-gray-100 dark:border-gray-700"
         >
           <div className="flex flex-col md:flex-row">
-            <div className="md:w-1/4 mb-4 md:mb-0">
-              <div className="w-20 h-20 bg-gradient-to-br from-purple-500 to-blue-500 rounded-lg flex items-center justify-center shadow-md">
-                <span className="text-2xl font-bold text-white">UoB</span>
+          <div className="md:w-1/4 mb-4 md:mb-0">
+              <div className="w-20 h-20 bg-gradient-to-br from-white-500 to-gray-500 rounded-lg flex items-center justify-center shadow-md">
+                <img
+                  src="/images/bu.png"
+                  alt="University of Barishal Logo"
+                  className="w-12 h-12 object-contain"
+                />
               </div>
             </div>
             <div className="md:w-3/4">
