@@ -728,7 +728,10 @@ function SectionTitle({ children }) {
   return (
     <h2 className="text-3xl md:text-4xl font-bold text-center mb-16 relative">
       <span className="bg-gradient-to-r from-purple-600 to-blue-500 bg-clip-text text-transparent">{children}</span>
-      <div className="absolute w-20 h-1 bg-gradient-to-r from-purple-600 to-blue-500 bottom-0 left-1/2 transform -translate-x-1/2 mt-2"></div>
+      
+      <br />
+      <div className="absolute w-40 h-1 bg-gradient-to-r from-purple-600 via-pink-500 to-blue-500 bottom-0 left-1/2 transform -translate-x-1/2 mt-6 rounded-full shadow-md"></div>
+
     </h2>
   )
 }
